@@ -1,0 +1,9 @@
+---
+applications:
+  - name: env-variable
+    path: build/libs/env-variable-1.1.jar
+    routes:
+      - route: env-variable.apps.pcf.paltraining.perficient.com
+    env:
+      SENTENCE: This is a sentence
+      MESSAGE: Hello from Cloud Foundry
